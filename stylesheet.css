@@ -1,11 +1,11 @@
 @font-face {
   font-family: "jigaro1";
-  src: url(" ../font/SourceSansPro-BlackItalic.eot");
-  src: url("../font/SourceSansPro-BlackItalic.eot?#iefix")
+  src: url("  font/SourceSansPro-BlackItalic.eot");
+  src: url("font/SourceSansPro-BlackItalic.eot?#iefix")
       format("embedded-opentype"),
-    url("../font/SourceSansPro-BlackItalic.woff2") format("woff2"),
-    url("../font/SourceSansPro-BlackItalic.woff") format("woff"),
-    url("../font/SourceSansPro-BlackItalic.ttf") format("truetype");
+    url("font/SourceSansPro-BlackItalic.woff2") format("woff2"),
+    url("font/SourceSansPro-BlackItalic.woff") format("woff"),
+    url("font/SourceSansPro-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -13,12 +13,11 @@
 
 @font-face {
   font-family: " jigaro";
-  src: url(" ../font/SourceSansPro-Black.eot");
-  src: url(" ../font/SourceSansPro-Black.eot?#iefix")
-      format("embedded-opentype"),
-    url(" ../font/SourceSansPro-Black.woff2") format("woff2"),
-    url(" ../font/SourceSansPro-Black.woff") format("woff"),
-    url(" ../font/SourceSansPro-Black.ttf") format("truetype");
+  src: url(" font/SourceSansPro-Black.eot");
+  src: url(" font/SourceSansPro-Black.eot?#iefix") format("embedded-opentype"),
+    url("font/SourceSansPro-Black.woff2") format("woff2"),
+    url("font/SourceSansPro-Black.woff") format("woff"),
+    url(" font/SourceSansPro-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -26,11 +25,11 @@
 
 @font-face {
   font-family: "bold1";
-  src: url(" ../font/SourceSansPro-Bold.eot");
-  src: url(" ../font/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"),
-    url(" ../font/SourceSansPro-Bold.woff2") format("woff2"),
-    url(" ../font/SourceSansPro-Bold.woff") format("woff"),
-    url(" ../font/SourceSansPro-Bold.ttf") format("truetype");
+  src: url(" font/SourceSansPro-Bold.eot");
+  src: url(" font/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url(" font/SourceSansPro-Bold.woff2") format("woff2"),
+    url(" font/SourceSansPro-Bold.woff") format("woff"),
+    url(" font/SourceSansPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -87,12 +86,11 @@
 
 @font-face {
   font-family: "sregular";
-  src: url(" ../font/SourceSansPro-Regular.eot");
-  src: url(" ../font/SourceSansPro-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url(" ../font/SourceSansPro-Regular.woff2") format("woff2"),
-    url(" ../font/SourceSansPro-Regular.woff") format("woff"),
-    url(" ../font/SourceSansPro-Regular.ttf") format("truetype");
+  src: url(" font/SourceSansPro-Regular.eot");
+  src: url(" font/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url(" font/SourceSansPro-Regular.woff2") format("woff2"),
+    url(" font/SourceSansPro-Regular.woff") format("woff"),
+    url(" font/SourceSansPro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -112,12 +110,12 @@
 
 @font-face {
   font-family: "seym";
-  src: url("  ../font/SourceSansPro-SemiBoldItalic.eot");
-  src: url("../font/SourceSansPro-SemiBoldItalic.eot?#iefix")
+  src: url("  font/SourceSansPro-SemiBoldItalic.eot");
+  src: url("font/SourceSansPro-SemiBoldItalic.eot?#iefix")
       format("embedded-opentype"),
-    url("../font/SourceSansPro-SemiBoldItalic.woff2") format("woff2"),
-    url("../font/SourceSansPro-SemiBoldItalic.woff") format("woff"),
-    url("../font/SourceSansPro-SemiBoldItalic.ttf") format("truetype");
+    url("font/SourceSansPro-SemiBoldItalic.woff2") format("woff2"),
+    url("font/SourceSansPro-SemiBoldItalic.woff") format("woff"),
+    url("font/SourceSansPro-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -125,12 +123,11 @@
 
 @font-face {
   font-family: " San1s  ";
-  src: url("../font/SourceSansPro-SemiBold.eot");
-  src: url("../font/SourceSansPro-SemiBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../font/SourceSansPro-SemiBold.woff2") format("woff2"),
-    url("../font/SourceSansPro-SemiBold.woff") format("woff"),
-    url("../font/SourceSansPro-SemiBold.ttf") format("truetype");
+  src: url("font/SourceSansPro-SemiBold.eot");
+  src: url("font/SourceSansPro-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("font/SourceSansPro-SemiBold.woff2") format("woff2"),
+    url("font/SourceSansPro-SemiBold.woff") format("woff"),
+    url("font/SourceSansPro-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
