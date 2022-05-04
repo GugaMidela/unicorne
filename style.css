@@ -206,9 +206,14 @@ header h1 {
   padding-left: 700px;
   margin-top: 50px;
 }
-.art li {
+.art li :hover {
+  color: #e64a19;
+  transition: 0.5s;
+}
+.art li a {
   margin-right: 50px;
   font-size: 16px;
+  color: #212121;
   font-family: sregular;
 }
 .baner1 {
@@ -434,7 +439,16 @@ form .message {
   background-color: #212121;
   border: 0px;
   border-bottom: 1px solid #999999;
-  padding: 20px;
+  padding: 10px;
+  color: #999999;
+  margin-bottom: 20%;
+}
+form .password {
+  width: 80%;
+  background-color: #212121;
+  border: 0px;
+  border-bottom: 1px solid #999999;
+  padding: 10px;
   color: #999999;
   margin-bottom: 20%;
 }
@@ -446,8 +460,8 @@ form .submit {
   background-color: #212121;
   border: 0px;
   margin-left: -10px;
-  border-bottom: 1px solid #999999;
-  padding: 20px;
+
+  padding: 10px;
 
   padding-right: 1540px;
   margin-top: -250px;
