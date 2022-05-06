@@ -261,70 +261,14 @@ header h1 {
   font-family: sregular;
   line-height: 33px;
 }
-.hedfo {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  padding-left: 390px;
-  margin-top: 70px;
-  padding-right: 300px;
-}
-.hedfo p {
-  font-size: 17px;
-  text-align: center;
-  font-family: bold1;
-  margin-top: 28px;
-  color: #212121;
-}
+
 .pm {
   font-size: 16px;
   color: #212121;
   text-align: center;
   font-family: sregular;
 }
-.end {
-  margin-top: 100px;
-  background-image: url(img/layer133.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  padding: 120px 333px 140px 333px;
-}
-.end h3 {
-  font-size: 27px;
-  margin-bottom: 40px;
-  font-family: bold1;
 
-  color: #eeeeee;
-  text-align: center;
-}
-.end_childe p {
-  font-size: 27px;
-  font-family: sregular;
-  color: #eeeeee;
-}
-.end_article {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.end_childe {
-  width: 50%;
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.divdiv {
-  width: 75px;
-  margin: 20px;
-  height: 4px;
-  background-color: #6c6b6b;
-}
 .duel {
   margin-top: 100px;
   padding: 0 165px;
@@ -560,4 +504,90 @@ form .submit {
   text-decoration: none;
   color: #999999;
   margin-block: 5px;
+}
+
+/* vmushaobt media queriebze */
+
+.hedfo {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  padding-inline: 15%;
+}
+.hedfo p {
+  font-size: 17px;
+  text-align: center;
+  font-family: bold1;
+  margin-top: 28px;
+  color: #212121;
+}
+
+.hedfo div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.end {
+  margin-top: 100px;
+  background-image: url(img/layer133.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 120px 15%;
+}
+.end h3 {
+  font-size: 27px;
+  margin-bottom: 40px;
+  font-family: bold1;
+
+  color: #eeeeee;
+  text-align: center;
+}
+.end_childe p {
+  font-size: 27px;
+  font-family: sregular;
+  text-align: center;
+  color: #eeeeee;
+}
+.end_article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.end_childe {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divdiv {
+  width: 75px;
+  margin: 20px;
+  height: 4px;
+  background-color: #6c6b6b;
+}
+
+@media (max-width: 1000px) {
+  .hedfo div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hedfo div {
+    width: 100%;
+  }
+  .end_childe {
+    width: 100%;
+  }
 }
