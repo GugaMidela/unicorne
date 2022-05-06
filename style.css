@@ -487,3 +487,77 @@ form .submit {
   left: 0;
   right: 0;
 }
+
+/* iosebis gaketebuli footer is styles */
+
+.top-half {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-family: bold1;
+}
+
+.footer-description {
+  font-size: 14px;
+  font-family: sregular;
+  margin-block: 20px;
+}
+
+.form-container {
+  width: 40%;
+}
+
+.styled-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.email_input,
+.subject_input {
+  width: 49%;
+}
+
+.text_input {
+  width: 100%;
+}
+
+.styled-form input {
+  background-color: transparent;
+  padding: 5px;
+  border: 0;
+  border-bottom: 1px solid #999999;
+  color: #999999;
+  margin: 10px 0;
+}
+
+#input-submit {
+  margin-top: 120px;
+  border: 0;
+}
+.styled-form input:focus {
+  outline: none;
+}
+
+.bottom-half {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  border-top: 2px solid #999999;
+  color: white;
+}
+
+.social-networks h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.socials li a {
+  text-decoration: none;
+  color: #999999;
+  margin-block: 5px;
+}
