@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -434,6 +438,7 @@ form .email {
   padding: 20px;
   padding-left: 10px;
 }
+
 form .message {
   width: 80%;
   background-color: #212121;
